@@ -1,0 +1,33 @@
+[project]
+name = "lunar-lab"
+version = "0.1.0"
+description = "Reward shaping and reward hacking experiments on Gymnasium LunarLander with PPO"
+readme = "README.md"
+authors = [
+    { name = "Olamide Ilesanmi", email = "samuelilesanmi15@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "gymnasium[box2d]>=1.4.0",
+    "matplotlib>=3.11.2",
+    "moviepy>=2.2.1",
+    "pandas>=3.1.1",
+    "pyyaml>=6.0.4",
+    "stable-baselines3>=2.9.2",
+]
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "ruff>=0.17.6",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
