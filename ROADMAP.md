@@ -22,7 +22,7 @@ If you can't, the phase isn't done.
 uv run python -c "import gymnasium, stable_baselines3"
 ```
 
-## Phase 1: Watch it fail ✍️ ← you are here
+## Phase 1: Watch it fail ✅
 
 Write `scripts/random_agent.py`:
 
@@ -40,7 +40,7 @@ Interview questions:
 - Roughly what does a random agent score? Why is it negative?
 - Which observation numbers are continuous and which are booleans?
 
-## Phase 2: Baseline PPO ✍️ + 🔧
+## Phase 2: Baseline PPO ✍️ + 🔧 ← you are here
 
 - ✍️ `src/lunar_lab/train.py`: PPO with `MlpPolicy`, 8 parallel envs, a `--seed` flag,
   saves the model and the Monitor logs under `runs/<variant>/seed<N>/`.
