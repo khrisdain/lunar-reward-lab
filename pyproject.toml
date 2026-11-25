@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Reward shaping and reward hacking experiments on Gymnasium LunarLander with PPO"
 readme = "README.md"
 authors = [
-    { name = "Olamide Ilesanmi", email = "samuelilesanmi15@gmail.com" }
+    { name = "Olamide Ilesanmi" }
 ]
 requires-python = ">=3.12"
 dependencies = [
